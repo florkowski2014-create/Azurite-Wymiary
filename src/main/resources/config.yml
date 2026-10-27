@@ -1,0 +1,3 @@
+# true = wymiar włączony (każdy może wejść), false = wyłączony (nikt nie wejdzie)
+nether: true
+end: true
