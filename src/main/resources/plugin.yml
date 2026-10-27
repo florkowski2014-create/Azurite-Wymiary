@@ -1,0 +1,16 @@
+name: AzuriteWymiar
+version: '${version}'
+main: pl.azurite.wymiar.AzuriteWymiar
+api-version: '1.21'
+description: Włączanie i wyłączanie wejścia do Netheru i Endu
+commands:
+  azurite-wymiar:
+    description: Włącza lub wyłącza wejście do Netheru / Endu
+    usage: /azurite-wymiar <on|off> <end|nether>
+permissions:
+  azurite.wymiar.admin:
+    description: Pozwala używać /azurite-wymiar
+    default: op
+  azurite.wymiar.bypass:
+    description: Pozwala wejść do zablokowanego wymiaru
+    default: false
